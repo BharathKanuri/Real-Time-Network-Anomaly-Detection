@@ -1,0 +1,10 @@
+# Virtual Environment
+venv/
+
+# Python Cache Files
+__pycache__/
+*.pyc
+*.pyo
+
+# Reports Directory
+reports/

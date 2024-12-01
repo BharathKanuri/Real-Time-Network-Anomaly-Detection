@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Network Sniffing Dashboard</title>
+    <link rel="stylesheet" href="../static/styles/style.css">
+</head>
+<body>
+    <div class="container">
+        <div class="header">
+            <img src="https://img.freepik.com/premium-photo/closeup-photo-machine-learning-anomaly-detection-network-with-data-flow-concept-machine-learning-anomaly-detection-network-visualization-data-flow-closeup-photo_918839-162224.jpg" alt="Network Image"/>
+            <h1>Real Time Network Anomaly Detection</h1>
+        </div>
+        <div class="buttons">
+            <button onclick="startSniffing()">Start Sniffing</button>
+            <button onclick="stopSniffing()">Stop Sniffing</button>
+            <button onclick="generateReport()">Generate Report</button>
+        </div>
+        <!-- Scrollable Table Container -->
+        <div class="table-container">
+            <table id="results-table">
+                <thead>
+                    <tr>
+                        <th>Timestamp</th>
+                        <th>Source IP</th>
+                        <th>Destination IP</th>
+                        <th>Protocol</th>
+                        <th>Prediction</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <!-- Dynamic Rows will be appended here by JavaScript -->
+                </tbody>
+            </table>
+        </div>
+        <div class="branding">RT-NAD - An ML Based Predictive System</div>
+    </div>
+    <script src="../static/scripts/script.js"></script>
+</body>
+</html>
