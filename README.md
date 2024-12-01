@@ -1,3 +1,5 @@
+Steps for Installation
+
 1) Clone the Git Repository into "Network-Anomaly-Detection" Folder
 2) Create a Virtual Environment in Python using the command "python -m venv"
 3) Activate the Virtual Environment by typing (source .venv/bin/activate) or manually run activate.bat file in (F:\...\Network-Anomaly-Detection\venv\Scripts\activate.bat)
